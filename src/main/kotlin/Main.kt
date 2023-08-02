@@ -1,13 +1,13 @@
 import kotlin.math.max
 
 fun main() {
-    var userName: String = "Daniel"
+    var userName: String = "Daniel"; var edad = 21
     userName = "Emill"
-    var edad: Int = 21
-    var numfav = 1.14 // Aqui se utilizo variable sin declarar.
-    var numMax: Int = Int.MAX_VALUE
-    var numMin: Int = Int.MIN_VALUE
+    var numMax: Int = Int.MAX_VALUE; var numMin: Int = Int.MIN_VALUE
+    var numMaxB: Byte = Byte.MAX_VALUE; var numMinB: Byte = Byte.MIN_VALUE
 
-    println("Numero maximo: $numMax \nNumero Minimo es: $numMin")
-    println("Hola $userName!, tu edad es $edad, tu numero favorito es $numfav")
+    println("Numero maximo INT: $numMax \nNumero Minimo INT: $numMin")
+    println("Numero maximo Byte: $numMaxB \nNumero MinimoByte: $numMinB")
+
+    println("Hola $userName!, tu edad es $edad")
 }
